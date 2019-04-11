@@ -40,6 +40,12 @@ public class QuickSort<T extends Comparable<T>> extends Sort<T>{
         swap(nums, l, j);
         return j;
     }
+
+    public static void main(String[] args){
+        QuickSort<Integer> quickSort = new QuickSort<Integer>();
+
+
+    }
 }
 
 
